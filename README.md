@@ -5,9 +5,11 @@ this document contains basic operations on linux servers
 ## Sign in
 
 ### Terminal
-终端进入方式：Linux Ctrl+Alt+T  
+终端进入方式：  
+            Linux Ctrl+Alt+T  
             MAC 在应用程序里可以找到terminal  
             Win 开始界面输入cmd  
+
 > ssh username@server  
 > password(invisible)  
 ### VScode
