@@ -9,7 +9,7 @@ this document contains basic operations on linux servers
             Linux Ctrl+Alt+T  
             MAC 在应用程序里可以找到terminal  
             Win 开始界面输入cmd  
-
+在命令行输入如下指令：
 > ssh username@server  
 > password(invisible)  
 ### VScode
