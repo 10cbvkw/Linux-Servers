@@ -21,9 +21,10 @@ this document contains basic operations on linux servers
 > password(invisible)  
 
 ## Basic operation of linux
-### linux 文件系统  
-路径：
-
+### linux 文件系统   
+路径：  
+- /绝对路径  
+- 相对路径  
 ### shell
 1. 显示当前目录下的文件和文件夹  
 > ls  
@@ -57,8 +58,10 @@ this document contains basic operations on linux servers
 
 ### pip
 
-##sftp
+## sftp
 
 ## conda 
+
+## CUDA
 
 ## git & github
