@@ -56,8 +56,6 @@ this document contains basic operations on linux servers
 
 ### vim
 
-### pip
-
 ## sftp
 
 ## conda 
