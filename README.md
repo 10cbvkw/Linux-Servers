@@ -21,6 +21,9 @@ this document contains basic operations on linux servers
 > password(invisible)  
 
 ## Basic operation of linux
+### linux 文件系统  
+路径：
+
 ### shell
 1. 显示当前目录下的文件和文件夹  
 > ls  
@@ -45,3 +48,17 @@ this document contains basic operations on linux servers
 > rm file                                       #删除文件  
 > rm -r folder                                  #删除文件夹中全部文件  
 8. 其他命令可以查看我在github上传的绍持提供的lecture_notes_closter.pdf  
+
+### python
+
+### pip
+
+### vim
+
+### pip
+
+##sftp
+
+## conda 
+
+## git & github
