@@ -21,7 +21,7 @@ this document contains basic operations on linux servers
 > password(invisible)  
 
 ## Basic operation of linux
-### linux 文件系统   
+### path   
 路径：  
 - /绝对路径  
 - 相对路径  
