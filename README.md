@@ -44,3 +44,4 @@ this document contains basic operations on linux servers
 7. 删除文件  
 > rm file                                       #删除文件  
 > rm -r folder                                  #删除文件夹中全部文件  
+8. 其他命令可以查看我在github上传的绍持提供的lecture_notes_closter.pdf  
