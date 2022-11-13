@@ -62,6 +62,6 @@ this document contains basic operations on linux servers
 
 ## conda 
 
-## CUDA
+## CUDA & CPU
 
 ## git & github
