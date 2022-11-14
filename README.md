@@ -1,6 +1,6 @@
 # Linux-Servers
-this document contains basic operations on linux servers
-这篇markdown的内容包括了使用linux服务器的一些基本操作
+this document contains basic operations on linux servers  
+这篇markdown的内容包括了使用linux服务器的一些基本操作  
 
 ## Sign in
 
@@ -72,9 +72,12 @@ conda环境中也可以安装pip，这在之后会提到
 我们可以通过在命令行键入pip和需要下载的安装包的名字来下载该安装包  
 > pip install xxx
 
-
 ### vim
+vim是一个编辑器，当我们在linux中还未安装任何可视化的编辑器，但是需要编辑一些脚本文件时，我们可能会用到Vim  
+我将会给大家提供一些vim最基本的常用操作以及两篇参考，帮助大家不同程度地了解Vim  
 
+参考1：https://github.com/vim/vim  
+参考2：https://www.runoob.com/linux/linux-vim.html  
 ## sftp
 
 ## conda 
