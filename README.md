@@ -62,6 +62,16 @@ linux一般自带python，我们可以直接在命令行键入python即可进入
 > sh xxx.sh
 
 ### pip
+在运行程序或其他操作的时候，通常会涉及到调用一些已经存在的包，这些包需要从网上下载，而pip就是一个下载软件包的软件  
+1. linux安装pip  
+> wget https://bootstrap.pypa.io/get-pip.py  
+> python get-pip.py  
+
+conda环境中也可以安装pip，这在之后会提到  
+2. pip 的使用  
+我们可以通过在命令行键入pip和需要下载的安装包的名字来下载该安装包  
+> pip install xxx
+
 
 ### vim
 
