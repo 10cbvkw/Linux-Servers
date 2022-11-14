@@ -110,8 +110,8 @@ vim 是一个编辑器，当我们在linux中还未安装任何可视化的编�
 
 
 2. 下载文件或文件夹至本地  
-> get /local_file_path /server_target_path  #下载文件  
-> get -r /local_folder_path/ /server_target_path  #下载文件夹内的文件  
+> get /server_file_path /local_target_path  #下载文件  
+> get -r /server_folder_path/ /local_target_path  #下载文件夹内的文件  
 ## conda 
 
 ## CUDA & CPU
