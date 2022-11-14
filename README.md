@@ -52,8 +52,8 @@ this document contains basic operations on linux servers
 
 ### python
 linux一般自带python，我们可以直接在命令行键入python即可进入命令行模式下的python  
+> python
 
-> python  
 如果想运行自己写的python文件，只需要在命令行键入python再加上python文件的路径  
 > python xxx.py  
 
