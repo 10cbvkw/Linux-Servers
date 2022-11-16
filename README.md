@@ -161,8 +161,28 @@ https://blog.csdn.net/wyf2017/article/details/118676765
 当我们需要切换环境或者回到初始环境的时候，我们需要接触激活状态  
 > conda deactivate  
 
+### 下载安装包
+我们举出下载pytorch的例子来展示我们如何在特定的环境中安装我们想要的软件包  
+首先我们激活想要安装的环境，这个环境应当被提前下载好  
 
+> conda activate your_env_name  
 
-## CUDA & CPU
+查看当前服务器(或者个人电脑cuda对应的版本)  
+> nvidia-smi  
+
+记住左上角的版本号，一会儿需要按照这个版本号进行下载对应的pytorch版本！！！  
+进入下面的网站选择合适的pytorch版本，下载器选择conda，复制命令并输入到激活了conda环境的命令行即可完成下载  
+ > https://pytorch.org/
+ 
+
+## CUDA & CPU 
+查看GPU版本和占用情况：  
+> nvidia-smi  
+
+查看CPU版本和占用情况：
+> top  
+
+查看内存使用情况：
+> free  
 
 ## git & github
