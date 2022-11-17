@@ -227,3 +227,12 @@ git与github建立远程连接,并且在本地和github同时更新代码
 如果不是第一次使用: 
 > git push  
 
+3. git branch的使用  
+建立分支  
+> git branch your_branch_name  
+
+切换分支  
+> git checkout your_branch_name  
+
+合并分支  
+> git merge  
