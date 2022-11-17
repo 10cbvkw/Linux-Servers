@@ -200,7 +200,7 @@ https://blog.csdn.net/wyf2017/article/details/118676765
 > top  
 
 查看内存版本和使用情况：
-> cat /proc/meminfo
+> cat /proc/meminfo  
 > free  
 
 ## git & github  
@@ -216,4 +216,5 @@ git一般存在于本地
 2. 在本地建立git代码管理  
 下载git  
 > apt-get install git  
+
 
