@@ -2,6 +2,9 @@
 this document contains basic operations on linux servers  
 这篇markdown的内容包括了使用linux服务器的一些基本操作  
 
+LINUX是操作系统,操作系统的作用是充当软件和硬件之间连接的桥梁  
+我们将从这个角度出发探讨LINUX调用硬件运行软件的一些基本的指令,主要包括linux的文件系统,调用和查看硬件资源的方法,以及软件环境的配置  
+
 ## Sign in
 
 ### Terminal
@@ -25,6 +28,14 @@ this document contains basic operations on linux servers
 路径：  
 - /绝对路径  
 - 相对路径  
+
+linux的文件系统:  
+- /home 一般普通用户的家目录所在位置  
+- /data 存储盘,建议将实验数据集和运行结果都放在data盘  
+- /dev 设备文件  
+- /etc 配置文件  
+- /tmp 临时存储盘  
+
 ### shell
 1. 显示当前目录下的文件和文件夹  
 > ls  
