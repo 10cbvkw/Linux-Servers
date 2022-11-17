@@ -175,13 +175,15 @@ https://blog.csdn.net/wyf2017/article/details/118676765
  > https://pytorch.org/
  
 
-## CUDA & CPU 
+## CUDA & CPU & memory
 查看GPU版本和占用情况：  
 > nvidia-smi  
 
 查看CPU版本和占用情况：
+> cat /proc/cpuinfo  
 > top  
 
-查看内存使用情况：
+查看内存版本和使用情况：
+> cat /proc/meminfo
 > free  
 
