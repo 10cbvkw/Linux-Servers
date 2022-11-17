@@ -191,9 +191,21 @@ https://blog.csdn.net/wyf2017/article/details/118676765
  > https://pytorch.org/
  
 
-## CUDA & CPU & memory
+## CUDA & CPU & memory  
 查看GPU版本和占用情况：  
 > nvidia-smi  
+
+将程序跑在某一块特定的GPU上:
+方法1:在终端跑程序的时候指定一块GPU资源:  
+> CUDA_VISIBLE_DEVICES=1 python xxx.py  
+
+方法2:在python程序中指定一块GPU资源:  
+> import os  
+> os.environ["CUDA_VISIBLE_DEVICES"] = "2"  
+
+pytorch 多GPU程序编写  
+大家可以去查一下这个函数的documentation  :  torch.nn.DataParallel  
+> torch.nn.DataParallel(module, device_ids=None, output_device=None, dim=0)  
 
 查看CPU版本和占用情况：
 > cat /proc/cpuinfo  
