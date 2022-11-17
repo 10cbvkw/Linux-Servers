@@ -217,4 +217,13 @@ git一般存在于本地
 下载git  
 > apt-get install git  
 
+git与github建立远程连接,并且在本地和github同时更新代码  
+参考我在github上面上传的git流程  
+
+在整个流程的最后一步需要添加:
+如果是第一次使用push:  
+> git push -u origin master  
+
+如果不是第一次使用: 
+> git push  
 
